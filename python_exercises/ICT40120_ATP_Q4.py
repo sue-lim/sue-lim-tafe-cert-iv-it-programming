@@ -1,0 +1,8 @@
+# STUDENT ID 20111218 | NAME: PUI LIM | DATE: 28TH JULY 2023
+x = 15
+y = 20
+print(x + y)
+
+# COMMENT OUT
+""" COMMENT OUT """
+""" COMMENT OUT """
