@@ -1,0 +1,14 @@
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\bin\Debug\net6.0\C#parameters_playground.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\bin\Debug\net6.0\C#parameters_playground.deps.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\bin\Debug\net6.0\C#parameters_playground.runtimeconfig.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\bin\Debug\net6.0\C#parameters_playground.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\bin\Debug\net6.0\C#parameters_playground.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\obj\Debug\net6.0\C#parameters_playground.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\obj\Debug\net6.0\C#parameters_playground.AssemblyInfoInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\obj\Debug\net6.0\C#parameters_playground.AssemblyInfo.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\obj\Debug\net6.0\C#parameters_playground.csproj.CoreCompileInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\obj\Debug\net6.0\C#parameters_playground.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\obj\Debug\net6.0\refint\C#parameters_playground.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\obj\Debug\net6.0\C#parameters_playground.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\obj\Debug\net6.0\C#parameters_playground.genruntimeconfig.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#parameters_playground\obj\Debug\net6.0\ref\C#parameters_playground.dll

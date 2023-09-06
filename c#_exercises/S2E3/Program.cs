@@ -12,7 +12,6 @@ namespace MonthApplication
             string? MonthStr = Console.ReadLine();
             int month = int.Parse(MonthStr);
 
-
             switch (month)
             {
                 case 1:

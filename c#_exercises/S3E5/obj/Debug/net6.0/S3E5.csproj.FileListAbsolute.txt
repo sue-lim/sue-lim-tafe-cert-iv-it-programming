@@ -1,0 +1,14 @@
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\obj\Debug\net6.0\S3E5.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\obj\Debug\net6.0\S3E5.AssemblyInfoInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\obj\Debug\net6.0\S3E5.AssemblyInfo.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\obj\Debug\net6.0\S3E5.csproj.CoreCompileInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\bin\Debug\net6.0\S3E5.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\bin\Debug\net6.0\S3E5.deps.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\bin\Debug\net6.0\S3E5.runtimeconfig.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\bin\Debug\net6.0\S3E5.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\bin\Debug\net6.0\S3E5.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\obj\Debug\net6.0\S3E5.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\obj\Debug\net6.0\refint\S3E5.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\obj\Debug\net6.0\S3E5.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\obj\Debug\net6.0\S3E5.genruntimeconfig.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S3E5\obj\Debug\net6.0\ref\S3E5.dll

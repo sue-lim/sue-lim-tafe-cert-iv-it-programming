@@ -1,0 +1,14 @@
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\obj\Debug\net6.0\S4E8a.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\obj\Debug\net6.0\S4E8a.AssemblyInfoInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\obj\Debug\net6.0\S4E8a.AssemblyInfo.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\obj\Debug\net6.0\S4E8a.csproj.CoreCompileInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\bin\Debug\net6.0\S4E8a.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\bin\Debug\net6.0\S4E8a.deps.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\bin\Debug\net6.0\S4E8a.runtimeconfig.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\bin\Debug\net6.0\S4E8a.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\bin\Debug\net6.0\S4E8a.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\obj\Debug\net6.0\S4E8a.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\obj\Debug\net6.0\refint\S4E8a.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\obj\Debug\net6.0\S4E8a.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\obj\Debug\net6.0\S4E8a.genruntimeconfig.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S4E8a\obj\Debug\net6.0\ref\S4E8a.dll
