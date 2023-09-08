@@ -1,0 +1,14 @@
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\bin\Debug\net6.0\C#arrays_playground.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\bin\Debug\net6.0\C#arrays_playground.deps.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\bin\Debug\net6.0\C#arrays_playground.runtimeconfig.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\bin\Debug\net6.0\C#arrays_playground.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\bin\Debug\net6.0\C#arrays_playground.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\obj\Debug\net6.0\C#arrays_playground.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\obj\Debug\net6.0\C#arrays_playground.AssemblyInfoInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\obj\Debug\net6.0\C#arrays_playground.AssemblyInfo.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\obj\Debug\net6.0\C#arrays_playground.csproj.CoreCompileInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\obj\Debug\net6.0\C#arrays_playground.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\obj\Debug\net6.0\refint\C#arrays_playground.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\obj\Debug\net6.0\C#arrays_playground.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\obj\Debug\net6.0\C#arrays_playground.genruntimeconfig.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\C#arrays_playground\obj\Debug\net6.0\ref\C#arrays_playground.dll
