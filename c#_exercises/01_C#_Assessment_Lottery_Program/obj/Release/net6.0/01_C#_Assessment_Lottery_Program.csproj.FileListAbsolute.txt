@@ -1,0 +1,14 @@
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\bin\Release\net6.0\01_C#_Assessment_Lottery_Program.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\bin\Release\net6.0\01_C#_Assessment_Lottery_Program.deps.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\bin\Release\net6.0\01_C#_Assessment_Lottery_Program.runtimeconfig.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\bin\Release\net6.0\01_C#_Assessment_Lottery_Program.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\bin\Release\net6.0\01_C#_Assessment_Lottery_Program.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\obj\Release\net6.0\01_C#_Assessment_Lottery_Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\obj\Release\net6.0\01_C#_Assessment_Lottery_Program.AssemblyInfoInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\obj\Release\net6.0\01_C#_Assessment_Lottery_Program.AssemblyInfo.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\obj\Release\net6.0\01_C#_Assessment_Lottery_Program.csproj.CoreCompileInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\obj\Release\net6.0\01_C#_Assessment_Lottery_Program.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\obj\Release\net6.0\refint\01_C#_Assessment_Lottery_Program.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\obj\Release\net6.0\01_C#_Assessment_Lottery_Program.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\obj\Release\net6.0\01_C#_Assessment_Lottery_Program.genruntimeconfig.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\01_C#_Assessment_Lottery_Program\obj\Release\net6.0\ref\01_C#_Assessment_Lottery_Program.dll
