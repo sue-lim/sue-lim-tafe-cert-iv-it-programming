@@ -1,0 +1,3 @@
+from PY4E_S07_Exercises.reused import shared_function
+
+shared_function
