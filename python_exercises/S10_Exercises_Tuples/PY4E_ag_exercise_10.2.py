@@ -10,26 +10,30 @@ Once you have accumulated the counts for each hour, print out the counts, sorted
 
 file_handle = open("mbox-short.txt")
 
-hr_counts = {}
+hour_counts = {}
 
 for line in file_handle:
     line = line.rstrip()
-    if not line.startswith("From "):
-        continue
-    split_line = line.split()  # seperate the words on the line
-    timestamp = split_line[5]  # retrieve timestamp
-    hms_split = timestamp.split(":")  # h:m:s split
-    hours = hms_split[0]
-    # print(hours)
-    hours = [hours]
-    for item in hours:
-        hr_counts[item] = hr_counts.get(item, 0) + 1
+    if line.startswith("From "):
+        split_line = line.split()  # seperate the words on the line
+        timestamp = split_line[5]  # retrieve timestamp
+        hour_minute_second_split = timestamp.split(":")  # h:m:s split
+        hours = hour_minute_second_split[0]
+        # print(hours)
+        hours = [hours]
+        for item in hours:
+            hour_counts[item] = hour_counts.get(item, 0) + 1
 
 # Create a list to store tuples of (hour, count) & sort
-tmp = list()
-for k, v in hr_counts.items():
-    tmp.append((k, v))
-    tmp.sort()
+hour_count_list = list()
+for key_hour, value_count in hour_counts.items():
+    hour_count_list.append((key_hour, value_count))
+    hour_count_list.sort()
 
-for k, v in tmp:  # Loop through  sorted list of tuples & print the results
-    print(k, v)
+for (
+    key_hour,
+    value_count,
+) in hour_count_list:  # Loop through  sorted list of tuples & print the results
+    print(key_hour, value_count)
+
+file_handle.close()

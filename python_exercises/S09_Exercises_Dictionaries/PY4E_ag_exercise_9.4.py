@@ -7,26 +7,35 @@ DESIRED OUTPUT:
 cwen@iupui.edu 5
 """
 # STUDENT ID 20111218 | NAME: PUI LIM | DATE: 30/9/2023
-# file_name = input("Enter File: ")
-# file_handle = open(file_name)
-file_handle = open("mbox-short.txt")
+file_name = input("Enter File: ")
+file_handle = open(file_name)
 
-counter = 0
 dictionary = {}
+email_count = None
+most_common_email = None
 
 for line in file_handle:
     line = line.rstrip()
-    if not line.startswith("From "):
-        continue
-    words = line.split()  # splits into seperate words
-    email = words[1]  # creating a variable to store index value at position 1
+    if line.startswith("From "):
+        words = line.split()  # splits into seperate words
+        email = words[1]  # creating a variable to store index value at position 1
 
-    emails = [email]  # creating a list
-    for item in emails:
-        dictionary[item] = (
-            dictionary.get(item, 0) + 1
-        )  # adding the values in the list to dictionary
-# print(dictionary)
+        email_list = [email]  # creating a list
+        for item in email_list:
+            dictionary[item] = dictionary.get(item, 0) + 1
+            # adding the values in the list to dictionary
+
+            # Loop through the dictionary of word counts
+            # for email, count in dictionary.items():
+            # Check if this word has a higher count than the current highest count
+            if email_count is None or dictionary[item] > email_count:
+                # If yes, update the most frequent word and its count
+                most_common_email = email
+                email_count = dictionary[item]
+
+# Print the most frequent word and its count
+print(most_common_email, email_count)
+file_handle.close()
 
 """ref: https://stackoverflow.com/questions/30208044/how-to-add-list-elements-into-dictionary"""
 

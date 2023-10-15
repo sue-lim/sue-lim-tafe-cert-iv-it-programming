@@ -33,3 +33,5 @@ for words in updated_lines:
     formatted_list.sort()
 
     print(formatted_list)
+
+file_handle.close()

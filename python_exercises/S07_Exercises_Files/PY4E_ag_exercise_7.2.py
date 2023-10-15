@@ -13,23 +13,21 @@ total = 0
 count = 0
 
 for line in file_handle:
-    # rstrip removes whitepace
     updated_line = line.rstrip()
-    if not updated_line.startswith("X-DSPAM-Confidence:"):
-        continue
+    if updated_line.startswith("X-DSPAM-Confidence:"):
+        count += 1
+        post_confidence_number = float(updated_line[19:])
+        total += post_confidence_number
 
-    count += 1
-    post_confidence_num = float(updated_line[19:])
-    total += post_confidence_num
+if count > 0:
+    mean = total / count
+    print("Average spam confidence:", mean)
+else:
+    print("No 'X-DSPAM-Confidence:' lines found in the file.")
 
-# if statement
-# if count > 0:
-#     mean = total / count
-#     print("Average spam confidence:", mean)
-# else:
-#     print("No 'X-DSPAM-Confidence:' lines found in the file.")
+file_handle.close()
 
 # no use of if statement
 # count > 0
-mean = total / count
-print(mean)
+# mean = total / count
+# print(mean)

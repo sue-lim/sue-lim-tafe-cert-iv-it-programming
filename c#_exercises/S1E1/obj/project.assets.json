@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\tafe-learning\\cert-iv-it-programming\\c#_exercises\\S1E01\\S1E1.csproj",
+      "projectUniqueName": "C:\\github\\tafe-learning\\cert-iv-it-programming\\c#_exercises\\S1E1\\S1E1.csproj",
       "projectName": "S1E1",
-      "projectPath": "C:\\github\\tafe-learning\\cert-iv-it-programming\\c#_exercises\\S1E01\\S1E1.csproj",
+      "projectPath": "C:\\github\\tafe-learning\\cert-iv-it-programming\\c#_exercises\\S1E1\\S1E1.csproj",
       "packagesPath": "C:\\Users\\suepl\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\tafe-learning\\cert-iv-it-programming\\c#_exercises\\S1E01\\obj\\",
+      "outputPath": "C:\\github\\tafe-learning\\cert-iv-it-programming\\c#_exercises\\S1E1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\suepl\\AppData\\Roaming\\NuGet\\NuGet.Config",

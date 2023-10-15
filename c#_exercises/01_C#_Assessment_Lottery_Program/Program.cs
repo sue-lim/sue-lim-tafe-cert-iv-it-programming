@@ -46,7 +46,7 @@ namespace Assignment01
                 Console.WriteLine("===            To Win            ===");
                 Console.WriteLine("===    All numbers must match!   ===");
                 Console.WriteLine("====================================");
-                
+
                 Console.WriteLine("====================================");
                 Console.WriteLine("===      *** HIT ENTER ***       ===");
                 Console.WriteLine("===     FOR THE LOTTERY DRAW     ===");
