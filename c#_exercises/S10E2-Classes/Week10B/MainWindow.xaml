@@ -1,0 +1,28 @@
+﻿<Window x:Class="Week10B.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Week10B"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Registration:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="84" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="TextboxRegistration" HorizontalAlignment="Left" Margin="94,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Label Content="Rental Cost:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="84" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="TextboxRentalCost" HorizontalAlignment="Left" Margin="94,41,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Label Content="Make:" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="84" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="TextboxMake" HorizontalAlignment="Left" Margin="94,73,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Label Content="Model:" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top" Width="84" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="TextboxModel" HorizontalAlignment="Left" Margin="94,104,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Slider x:Name="SliderSeats" HorizontalAlignment="Left" Margin="94,140,0,0" VerticalAlignment="Top" Width="88" Height="26" Minimum="2" Maximum="9" ValueChanged="SliderSeats_ValueChanged" SmallChange="1" IsSnapToTickEnabled="True"/>
+        <Label Content="Seats:" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top" Width="84" HorizontalContentAlignment="Right"/>
+        <ComboBox x:Name="ComboCarType" HorizontalAlignment="Left" Margin="94,166,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Label Content="Type:" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" Width="84" HorizontalContentAlignment="Right"/>
+        <Label x:Name="LabelSeatValue" Content="(2)" HorizontalAlignment="Left" Margin="187,135,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ButtonAdd" Content="Add" HorizontalAlignment="Left" Margin="94,217,0,0" VerticalAlignment="Top" Width="60" Click="ButtonAdd_Click"/>
+        <ListBox x:Name="ListCars" d:ItemsSource="{d:SampleData ItemCount=5}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="238,10,0,0" Height="384" Width="387" SelectionChanged="ListCars_SelectionChanged"/>
+        <Button x:Name="ButtonRefreshCars" Content="Refresh" HorizontalAlignment="Left" Margin="238,399,0,0" VerticalAlignment="Top" Width="162" Click="ButtonRefreshCars_Click"/>
+
+    </Grid>
+</Window>

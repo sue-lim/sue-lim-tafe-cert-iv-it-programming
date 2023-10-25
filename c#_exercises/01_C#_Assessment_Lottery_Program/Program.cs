@@ -1,98 +1,76 @@
-﻿using System;
-
-namespace Assignment01
+﻿namespace Assignment01
 {
     class LotteryProgram
     {
         static void Main()
         {
+            // Lotto Console Title
+            Console.Title = "Welcome to the Lotto Box";
+            Console.WriteLine("====================================");
+            Console.WriteLine("===   Welcome to the Lotto Box   ===");
+            Console.WriteLine("==================================== \n");
+
+            // CALL PrintNumberBoxFunction TO SHOW 1-45 IN A BOX WITH FORMATTING 
+            PrintNumberBox();
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("====================================");
+
+            PrintGameRules();
+
+            string userName = GetUserName(); // Get the user's name
+
+            Console.WriteLine($"\nWelcome, {userName}!\n"); // Display a welcome message
+
             bool playAgain = true; // Flag to control whether to play the game again
+
+            // Set the range of numbers (min & max) 
+            int minRange = 1;  // Minimum value for user input
+            int maxRange = 45; // Maximum value for user input
+
+
+
             while (playAgain)
             {
-                // ARRAYS TO STORE USERNUMBER INPUTS & RANDOMNUMGENERATOR 
-                int[] UserNumArray = new int[5];
-                int[] RandomNumArray = new int[5];
 
-                // LOTTO TITLE BOX & FORMATS
-                Console.WriteLine("====================================");
-                Console.WriteLine("===   Welcome to the Lotto Box   ===");
-                Console.WriteLine("==================================== \n");
+                Console.WriteLine("Let's play!\n");
 
-                // CALL PrintNumberBoxFunction TO SHOW 1-45 IN A BOX WITH FORMATTING 
-                PrintNumberBox();
+
+                int numberOfPicks = GetNumberOfPicks(); // Ask the user how many lottery numbers they want to pick.
+
+                int[] userNumbers = new int[numberOfPicks]; // Create an array to store the user's numbers.
+                int[] winningNumbers = GenerateWinningNumbers(minRange, maxRange); // Generate the winning numbers.
+
+                GetUserNumbers(userNumbers, minRange, maxRange);  // Get the user's numbers.
                 Console.WriteLine("------------------------------------");
-                Console.WriteLine("====================================");
+                Console.Write("Here are your selected numbers: \n");
+                DisplayNumbers(userNumbers);
+                Console.WriteLine("------------------------------------");
 
-                // USER INSTRUCTIONS 
-                Console.WriteLine("To Enter the Lottery...");
-                Console.WriteLine("Enter your 5 numbers between 1 - 45:\n");
+                Console.WriteLine("\nHit Enter to see winning numbers");
+
+                Console.ReadKey();
+                Console.WriteLine("------------------------------------");
+                Console.WriteLine("\nWinning Numbers:");  
+                DisplayNumbers(winningNumbers);
+
+                SortArray(winningNumbers); // Sort the winning numbers
+
+                int matches = CheckMatches(userNumbers, winningNumbers); // Check how many matches there are between user numbers and winning numbers.
 
 
-                // CALL USERINPUT FUNCTION TO GET USER INPUT
-                UserInput(UserNumArray);
-                Console.WriteLine("\n");
-
-                // Check for duplicates in user input array
-                /*if (LocateDuplicatesInArray(UserNumArray))
+                if (matches > 0)
                 {
-                    Console.WriteLine("\nDuplicate numbers found in your input.");
-                    // Handle duplicates as needed
-                    Console.WriteLine("Enter your 5 numbers between 1 - 45 again:\n");
-                    UserInput(UserNumArray); // Ask for input again
-                    Console.WriteLine("\n");
-                }*/
-
-                Console.WriteLine("====================================");
-                Console.WriteLine("===            To Win            ===");
-                Console.WriteLine("===    All numbers must match!   ===");
-                Console.WriteLine("====================================");
-
-                Console.WriteLine("====================================");
-                Console.WriteLine("===      *** HIT ENTER ***       ===");
-                Console.WriteLine("===     FOR THE LOTTERY DRAW     ===");
-                Console.WriteLine("===          GOODLUCK!           ===");
-                Console.WriteLine("====================================");
-                Thread.Sleep(2000); // PAUSE / STOP AND USER TO HIT ENTER TO CONTINUE
-                Console.ReadLine(); // Wait for Enter key press to exit
-
-                Console.WriteLine("------------------------------------");
-                Console.WriteLine("------------------------------------");
-                Console.WriteLine("---       Winning Numbers!       ---");
-                Console.WriteLine("------------------------------------");
-                Console.WriteLine("------------------------------------");
-                Console.WriteLine("\n");
-                RandomGenerator(RandomNumArray); // CALL RandomNumberGenerator
-                Console.WriteLine("\n");
-                Console.WriteLine("====================================");
-                Console.WriteLine("====================================");
-
-                // CALL FUNCTION AreEqual 
-                if (AreEqual(UserNumArray, RandomNumArray))
-
-                    Console.WriteLine("------------------------------------\n");
-
-                else
-                    Console.WriteLine("------------------------------------\n");
-                Console.WriteLine("         Sorry not a winner! \n     ");
-                Console.WriteLine("------------------------------------");
-
-                Console.WriteLine("====================================");
-                Console.WriteLine("=Thank you for playing the lottery!=");
-                Console.WriteLine("====================================\n");
-
-
-                // ASK THE USER IS THEY WANT TO PLAY AGAIN 
-                Console.WriteLine("\nDo you want to play again? (yes/no):");
-
-                // CONVERT YES TO LOWER CASE FOR CASE INSENSITIVITY 
-                string playAgainResponse = Console.ReadLine().ToLower();
-                if (playAgainResponse != "yes\n")
-                {
-                    playAgain = false; // EXIT THE LOOP IF THE USER DOESN'T WANT TO LAUNCH AGAIN 
+                    Console.WriteLine($"\nCongratulations, {userName}! You have {matches} matches!");
+                    HighlightMatchingNumbers(userNumbers, winningNumbers);
                 }
-                Console.WriteLine("====================================");
-                Console.WriteLine("=Thank you for playing the lottery!=");
-                Console.WriteLine("====================================\n");
+                else
+                {
+                    Console.WriteLine("\n------------------------------------\n");
+                    Console.WriteLine($"Sorry, {userName}, not a winner! \nBetter luck next time!\n\nThank you for playing...\n");
+
+                }
+
+                playAgain = AskToPlayAgain();
             }
         }
         // LOTTO NUMBER BOX VISUAL 
@@ -121,127 +99,200 @@ namespace Assignment01
                 Console.WriteLine(); // MOVE TO THE NEXT ROW BY ADDING A LINE BREAK.
             }
         }
-
-        // USER INPUT FOR LOTTO NUMBERS 
-        static void UserInput(int[] array)
+        // Function to get the user's name
+        static string GetUserName()
         {
-            // INITIALIZE AN ARRAY TO STORE USER-ENTERED NUMBERS 
-            int[] UserNumArray = new int[5]; // CREATE AN ARRAY WITH SPACE FOR 5 NUMBERS
-            int i; // DECLARE AN INTEGER VARIABLE TO CONTROL THE LOOP ITERATION
+            Console.Write("\nEnter your name: ");
+            return Console.ReadLine();
+        }
 
-            // FOR LOOP TO RECEIVE USER INPUT FOR 5 NUMBERS
-            for (i = 0; i < 5; i++)
+        static void PrintGameRules()
+        {
+            Console.WriteLine("\nWelcome to the Lotto Box\n\nTo play you must select a minimum of 5 numbers\nThese numbers must be between 1-45\n\nGoodluck & Happy Playing!");
+        }
+
+        // Function to get the number of picks from the user
+        static int GetNumberOfPicks()
+        {
+            int numberOfPicks;
+
+            while (true)
             {
-                // DISPLAY A PROMPT ON THE CONSOLE TO INSTRUCT THE USER AND TRACK THE CURRENT INPUT NUMBER
-                Console.Write("{0}. Enter number : ", i + 1);
+                Console.Write("How many numbers would you like to play, minimum of 5 numbers must be picked (5-9)? \n");
+                if (int.TryParse(Console.ReadLine(), out numberOfPicks) && numberOfPicks >= 5 && numberOfPicks <= 9)
+                    return numberOfPicks;
+                else
+                    Console.WriteLine("Please try again. Please enter a number between 5 and 9.");
+            }
+        }
 
-                // DECLARE AN INTEGER VARIABLE TO STORE THE USER'S INPUT
-                int IntUserNum;
-
-                // TRY TO PARSE THE USER'S INPUT AS AN INTEGER AND CHECK WHETHER THE PARSING SUCCEEDS
-                bool UserInput = int.TryParse(Console.ReadLine(), out IntUserNum);
-
-                // IF PARSING SUCCEEDS (TRUE), CHECK IF THE ENTERED NUMBER IS WITHIN THE RANGE OF 1 TO 45 INCLUSIVE
-                if (UserInput && IntUserNum >= 1 && IntUserNum <= 45)
+        // Function to get user-selected numbers
+        static void GetUserNumbers(int[] userNumbers, int minRange, int maxRange)
+        {
+            for (int i = 0; i < userNumbers.Length; i++)
+            {
+                while (true)
                 {
-                    // CHECK IF THE ENTERED NUMBER IS ALREADY IN THE UserNumArray
-                    if (Array.IndexOf(UserNumArray, IntUserNum) != -1)
+                    Console.Write($"Enter number {i + 1}: ");
+                    if (int.TryParse(Console.ReadLine(), out int num) && num >= minRange && num <= maxRange && !ContainsNumber(userNumbers, num))
                     {
-                        Console.WriteLine("\n*** Number {0} has already been entered.\n*** Please enter a unique number.\n", IntUserNum);
-                        i--; // DECREMENT TO RE-ENTER A VALID NUMBER
+                        userNumbers[i] = num;
+                        break;
                     }
                     else
                     {
-                        UserNumArray[i] = IntUserNum; // ELSE ADD THE NUMBER TO THE ARRAY
+                        Console.WriteLine($"Please try again. Please enter a unique number between {minRange} and {maxRange}.");
                     }
+                }
+            }
+        }
+
+        // Function to generate winning numbers
+        static int[] GenerateWinningNumbers(int minRange, int maxRange) // range has been set in main 1-45
+        {
+            // This function generates random winning numbers within the specified range.
+            // It uses a random number generator to select 5 unique numbers.
+            Random random = new Random();
+            int[] winningNumbers = new int[5];
+            int[] numbers = new int[maxRange - minRange + 1];
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = i + minRange;
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                int index = random.Next(0, numbers.Length);
+                winningNumbers[i] = numbers[index];
+                RemoveNumber(ref numbers, index);
+            }
+
+            return winningNumbers;
+        }
+
+        // Function to display an array of numbers on the screen 
+        static void DisplayNumbers(int[] numbers)
+        {
+            foreach (int num in numbers)
+            {
+                Console.Write($"{num:D2} ");
+            }
+            Console.WriteLine();
+        }
+
+        // Function to check how many matches there are between user numbers and winning numbers
+        static int CheckMatches(int[] userNumbers, int[] winningNumbers)
+        {
+            int matches = 0;
+
+            foreach (int num in userNumbers)
+            {
+                if (BinarySearch(winningNumbers, num) >= 0)
+                {
+                    matches++;
+                }
+            }
+            return matches;
+        }
+
+        // Function to highlight matching numbers
+        static void HighlightMatchingNumbers(int[] userNumbers, int[] winningNumbers)
+        {
+            Console.Write("Your Numbers: ");
+            foreach (int num in userNumbers)
+            {
+                if (BinarySearch(winningNumbers, num) >= 0)
+                {
+                   
+                    Console.Write($"{num:D2} ");
                 }
                 else
                 {
-                    // ELSE IF NUMBER ISNT BETWEEN 1-45 MESSAGE TO REENTER AND DECREMENT 
-                    Console.WriteLine("\n*** Please Enter a valid number between 1 and 45 ***\n");
-                    i--; // DECREMENT TO RE-ENTER A VALID NUMBER
+                    Console.Write($"{num:D2} ");
+                    Console.ResetColor();
                 }
             }
-            // DISPLAY A MESSAGE INDICATING THAT THE USER'S TICKET NUMBERS ARE BEING SHOWN
-            Console.WriteLine("\n************************************");
-            Console.WriteLine("***      Your Ticket Numbers     ***");
-            Console.WriteLine("************************************\n");
-
-            // DISPLAY THE USER'S ENTERED NUMBERS ON THE CONSOLE
-            for (i = 0; i < 5; i++)
-            {
-                Console.Write("   {0}  ", UserNumArray[i]); // PRINT EACH USER NUMBER
-            }
+            Console.WriteLine();
         }
 
-        // FUNCTION TO GENERATE RANDOM LOTTO NUMBERS
-        static void RandomGenerator(int[] array)
+        // Function to ask if the user wants to play again
+        static bool AskToPlayAgain()
         {
-            int[] RandomNumArray = new int[5]; // CREATE AN ARRAY TO STORE RANDOMLY GENERATED NUMBERS
-            int lowestValue = 1; // DEFINE THE LOWEST VALUE FOR RANDOM NUMBER GENERATION
-            int highestValue = 45; // DEFINE THE HIGHEST VALUE FOR RANDOM NUMBER GENERATION
-
-            // CREATE AN INSTANCE OF THE BUILT-IN RANDOM NUMBER GENERATOR
-            Random rnd = new();
-
-            for (int j = 0; j < 5; j++)
+            while (true)
             {
-                // GENERATE A RANDOM NUMBER BETWEEN THE lowestValue AND highestValue (INCLUSIVE)
-                RandomNumArray[j] = rnd.Next(lowestValue, highestValue);
-
-                // DISPLAY THE GENERATED RANDOM NUMBER ON THE CONSOLE
-                Console.Write("   {0}  ", RandomNumArray[j], "\n");
-            }
-        }
-
-        // FUNCTION TO COMPARE TWO ARRAYS (USER INPUT & RANDOMLY GENERATED NUMBERS) TO CHECK IF THEY MATCH FOR A WIN
-        static bool AreEqual(int[] array1, int[] array2)
-        {
-            // IF THE LENGTHS OF THE TWO ARRAYS ARE NOT EQUAL, IT MEANS THE ARRAYS ARE DIFFERENT, SO RETURN FALSE
-            if (array1 != array2)
-                return false;
-
-            // SORT BOTH ARRAYS IN ASCENDING ORDER
-            Array.Sort(array1);
-            Array.Sort(array2);
-
-            // TRAVERSE BOTH ARRAYS AND COMPARE THEIR ELEMENTS
-            for (int i = 0; i < array1.Length; i++)
-            {
-                // IF ANY ELEMENTS IN THE ARRAYS ARE NOT EQUAL, RETURN FALSE
-                if (array1 != array2)
-                    return false;
-            }
-            // IF ALL ELEMENTS ARE EQUAL, RETURN TRUE, INDICATING A WIN
-            return true;
-        }
-
-        // *** FUNCTION NOT USED 
-        // FUNCTION TO IDENTIFY DUPLICATE NUMBERS IN AN ARRAY
-        // THIS FUNCTION DETECTS NUMBERS THAT ARE REPEATED IN THE ARRAY.
-        static bool LocateDuplicatesInArray(int[] array)
-        {
-            // SORT THE ARRAY IN NUMERICAL ORDER TO SIMPLIFY DETECTION OF DUPLICATE NUMBERS
-            Array.Sort(array);
-
-            // LOOP THROUGH THE SORTED ARRAY, STARTING FROM THE SECOND NUMBER
-            // THIS APPROACH IS USED BECAUSE EACH NUMBER IS COMPARED TO THE PREVIOUS ONE
-            for (int i = 1; i < array.Length; i++)
-            {
-                // WHEN THE CURRENT NUMBER MATCHES THE PREVIOUS ONE,
-                // IT INDICATES THE PRESENCE OF A DUPLICATE, AND THE FUNCTION RETURNS TRUE.
-                // OBSERVING TWO CONSECUTIVE EQUAL NUMBERS INDICATES DUPLICATES.
-                if (array[i] == array[i - 1])
+                Console.Write("Do you want to play again? (Y/N): ");
+                string response = Console.ReadLine().ToLower();
+                if (response == "y")
                     return true;
+                else if (response == "n")
+                    return false;
+                else
+                    Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
+            }
+        }
+
+        // Function to sort an array
+        static void SortArray(int[] array)
+        {
+            Array.Sort(array);
+        }
+
+        // Function to check if an array contains a specific number using binary search
+        static int BinarySearch(int[] array, int number)
+        {
+            int left = 0;
+            int right = array.Length - 1;
+
+            while (left <= right)
+            {
+                int middle = left + (right - left) / 2;
+
+                if (array[middle] == number)
+                    return middle;
+
+                if (array[middle] < number)
+                    left = middle + 1;
+                else
+                    right = middle - 1;
             }
 
-            // AFTER EXAMINING ALL NUMBERS AND FINDING NO DUPLICATES, THE FUNCTION RETURNS FALSE.
-            // THIS SIGNALS THAT NO MATCHING NUMBERS WERE DISCOVERED.
+            return -1; // Number not found
+        }
+
+        // Function to remove a number from an array
+        static void RemoveNumber(ref int[] array, int index)
+        {
+            int[] newArray = new int[array.Length - 1];
+            for (int i = 0, j = 0; i < array.Length; i++)
+            {
+                if (i != index)
+                {
+                    newArray[j++] = array[i];
+                }
+            }
+            array = newArray;
+        }
+
+        // Function to check if an array contains a specific number
+        static bool ContainsNumber(int[] array, int number)
+        {
+            foreach (int num in array)
+            {
+                if (num == number)
+                {
+                    return true;
+                }
+            }
             return false;
         }
-
     }
 }
+
+
+
+
+
 
 
 
@@ -253,6 +304,7 @@ namespace Assignment01
 // CONSOLE.WRITELINE VS CONSOLE.WRITE  - https://stackoverflow.com/questions/22845664/how-do-i-print-text-in-same-line
 // BOOLEEN OPERATORS - https://education.launchcode.org/intro-to-programming-csharp/chapters/booleans-and-conditionals/logical-operators.html#:~:text=C%23%20allows%20us%20to%20create,the%20overall%20expression%20is%20False%20.
 // RANDOM GENERATOR - https://www.tutorialsteacher.com/articles/generate-random-numbers-in-csharp
+// RANDOM GENERATOR + LOOPS - https://www.youtube.com/watch?v=9ozOSKCiO0I&list=PLPV2KyIb3jR4CtEelGPsmPzlvP7ISPYzR&index=5
 // LINEAR SEARCH - https://www.geeksforgeeks.org/check-if-two-arrays-are-equal-or-not/
 // LINEAR SEARCH - https://www.youtube.com/watch?v=vYSdsBgFji8
 // LOTTO NUMBER BOX - https://chat.openai.com/share/ac2eeb5f-d945-41af-99cc-e61ec15d6f11
@@ -260,5 +312,8 @@ namespace Assignment01
 // https://www.tutlane.com/tutorial/csharp/csharp-thread-sleep#:~:text=In%20c%23%2C%20the%20sleep%20method,property%20like%20as%20shown%20below.
 // https://www.geeksforgeeks.org/suspending-the-current-thread-for-the-specified-amount-of-time-in-c-sharp/
 // REPLAY THE PROGRAM - https://chat.openai.com/share/92241e6c-3217-450b-8a84-c39a23d718f3
+// RESIZE THE SCREEN - https://www.geeksforgeeks.org/console-setwindowsize-method-in-c-sharp/
+// BINARY SEARCH - https://chat.openai.com/share/30f51733-1b58-449f-a25b-c4dbd9785ac1
+
 
 

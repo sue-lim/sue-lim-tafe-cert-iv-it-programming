@@ -1,0 +1,14 @@
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\bin\Debug\net6.0\My_Awesome_Program.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\bin\Debug\net6.0\My_Awesome_Program.deps.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\bin\Debug\net6.0\My_Awesome_Program.runtimeconfig.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\bin\Debug\net6.0\My_Awesome_Program.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\bin\Debug\net6.0\My_Awesome_Program.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\obj\Debug\net6.0\My_Awesome_Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\obj\Debug\net6.0\My_Awesome_Program.AssemblyInfoInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\obj\Debug\net6.0\My_Awesome_Program.AssemblyInfo.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\obj\Debug\net6.0\My_Awesome_Program.csproj.CoreCompileInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\obj\Debug\net6.0\My_Awesome_Program.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\obj\Debug\net6.0\refint\My_Awesome_Program.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\obj\Debug\net6.0\My_Awesome_Program.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\obj\Debug\net6.0\My_Awesome_Program.genruntimeconfig.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\My_Awesome_Program\obj\Debug\net6.0\ref\My_Awesome_Program.dll

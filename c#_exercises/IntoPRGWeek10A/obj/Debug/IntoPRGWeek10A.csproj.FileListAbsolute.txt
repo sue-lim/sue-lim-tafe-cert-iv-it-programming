@@ -1,0 +1,16 @@
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\bin\Debug\IntoPRGWeek10A.exe.config
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\bin\Debug\IntoPRGWeek10A.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\bin\Debug\IntoPRGWeek10A.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\IntoPRGWeek10A.csproj.AssemblyReference.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\App.g.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\IntoPRGWeek10A_MarkupCompile.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\IntoPRGWeek10A_MarkupCompile.lref
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\MainWindow.baml
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\IntoPRGWeek10A.g.resources
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\IntoPRGWeek10A.Properties.Resources.resources
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\IntoPRGWeek10A.csproj.GenerateResource.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\IntoPRGWeek10A.csproj.CoreCompileInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\IntoPRGWeek10A.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\IntoPRGWeek10A.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\Layout1-Prose.g.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\IntoPRGWeek10A\obj\Debug\Layout1-Prose.baml
