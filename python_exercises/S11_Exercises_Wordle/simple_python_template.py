@@ -3,15 +3,16 @@ Guess-My-Word Project Application"""
 # See the assignment worksheet and journal for further details.
 # Begin by completing the TODO items below in the order you specified in the journal
 
+""" Import Random Module for def target_word """
 import random
 
-TARGET_WORDS = './word-bank/target_words.txt'
-VALID_WORDS = './word-bank/all_words.txt'
+TARGET_WORDS = "./word-bank/target_words.txt"
+VALID_WORDS = "./word-bank/all_words.txt"
 
 MAX_TRIES = 6
 
 # TODO: select target word at random from TARGET_WORDS
-target_word = 'hello'
+target_word = "hello"
 
 # TODO: repeat for MAX_TRIES valid attempts
 # (start loop)
@@ -39,19 +40,21 @@ print("Game Over")
 # ========
 # A set of helpful snippets that may help you meet the project requirements.
 
+
 def pick_target_word(words=None):
     """returns a random item from the list"""
-    words = ['a', 'b', 'c']
+    words = ["a", "b", "c"]
     return random.choice(words)
 
 
-def display_matching_characters(guess='hello', target_word='world'):
+def display_matching_characters(guess="hello", target_word="world"):
     """Get characters in guess that correspond to characters in the target_word"""
     i = 0
     for char in guess:
         print(char, target_word[i])
         i += 1
 
+
 # Uncomment to run:
-# display_matching_characters()
-# print(pick_target_word())
+display_matching_characters()
+print(pick_target_word())

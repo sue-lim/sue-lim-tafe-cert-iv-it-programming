@@ -1,4 +1,31 @@
-# friends = ["Joseph", "Glenn", "Sally"]
+class Animal:
+    def speak(self):
+        pass
+
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+
+# Function that demonstrates polymorphism
+def make_sound(animal):
+    return animal.speak()
+
+
+# Creating objects
+dog = Dog()
+cat = Cat()
+
+# Using polymorphism
+print(make_sound(dog))  # Output: Woof!
+print(make_sound(cat))  # Output: Meow!
+
 
 # # option one
 # for friend in friends:

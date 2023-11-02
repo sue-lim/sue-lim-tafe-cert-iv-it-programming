@@ -1,0 +1,15 @@
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\bin\Debug\Layout5-VictorianMoneyTracker.exe.config
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\bin\Debug\Layout5-VictorianMoneyTracker.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\bin\Debug\Layout5-VictorianMoneyTracker.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\Layout5-VictorianMoneyTracker.csproj.AssemblyReference.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\MainWindow.g.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\App.g.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\Layout5-VictorianMoneyTracker_MarkupCompile.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\Layout5-VictorianMoneyTracker_MarkupCompile.lref
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\MainWindow.baml
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\Layout5-VictorianMoneyTracker.g.resources
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\Layout5_VictorianMoneyTracker.Properties.Resources.resources
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\Layout5-VictorianMoneyTracker.csproj.GenerateResource.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\Layout5-VictorianMoneyTracker.csproj.CoreCompileInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\Layout5-VictorianMoneyTracker.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\Layout5-VictorianMoneyTracker\obj\Debug\Layout5-VictorianMoneyTracker.pdb

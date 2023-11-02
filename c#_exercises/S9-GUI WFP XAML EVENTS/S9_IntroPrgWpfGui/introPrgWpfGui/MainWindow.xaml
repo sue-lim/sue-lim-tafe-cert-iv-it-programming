@@ -1,0 +1,19 @@
+﻿<Window x:Class="introPrgWpfGui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:introPrgWpfGui"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="buttonOne" Content="Click me" HorizontalAlignment="Left" Margin="50,30,0,0" VerticalAlignment="Top" Width="122" Height="50" Click="buttonOne_Click"/>
+        <Button x:Name="buttonTwo" Content="Also Click me" HorizontalAlignment="Left" Margin="191,30,0,0" VerticalAlignment="Top" Width="122" Height="50" Click="buttonTwo_Click"/>
+        <Button x:Name="buttonThree" Content="Don't Click me" HorizontalAlignment="Left" Margin="330,30,0,0" VerticalAlignment="Top" Width="122" Height="50" Click="buttonThree_Click"/>
+        <Button x:Name="buttonFour" Content="Maybe click me?" HorizontalAlignment="Left" Margin="471,30,0,0" VerticalAlignment="Top" Width="122" Height="50" Click="buttonFour_Click"/>
+        <Label Content="Output" HorizontalContentAlignment="Center" Margin="266,135,240,0" VerticalAlignment="Top" Height="41" FontSize="22"/>
+        <Label x:Name="OutputLabel" Content="-" HorizontalContentAlignment="Center" Margin="266,176,240,0" VerticalAlignment="Top" Height="83"/>
+        <TextBox x:Name="textBox_input" HorizontalAlignment="Left" Height="23" Margin="641,46,0,0" TextWrapping="Wrap" Text="Hello World" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

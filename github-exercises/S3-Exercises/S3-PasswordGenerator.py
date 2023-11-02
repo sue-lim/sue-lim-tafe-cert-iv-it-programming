@@ -2,6 +2,7 @@
 import random
 import string
 
+
 # Import constants from the string module for letters
 # alphabet = string.ascii_letters
 alphabetLower = string.ascii_lowercase

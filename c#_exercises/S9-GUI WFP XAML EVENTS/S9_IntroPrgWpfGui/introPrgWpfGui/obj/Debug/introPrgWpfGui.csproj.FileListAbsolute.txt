@@ -1,0 +1,29 @@
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\bin\Debug\introPrgWpfGui.exe.config
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\bin\Debug\introPrgWpfGui.exe
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\bin\Debug\introPrgWpfGui.pdb
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.csprojAssemblyReference.cache
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\obj\Debug\MainWindow.g.cs
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\obj\Debug\App.g.cs
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui_MarkupCompile.cache
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui_MarkupCompile.lref
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\obj\Debug\MainWindow.baml
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.g.resources
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.Properties.Resources.resources
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.csproj.GenerateResource.cache
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.exe
+C:\Users\5002781\source\repos\introPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\bin\Debug\introPrgWpfGui.exe.config
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\bin\Debug\introPrgWpfGui.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\bin\Debug\introPrgWpfGui.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.csproj.AssemblyReference.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\MainWindow.g.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\App.g.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui_MarkupCompile.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui_MarkupCompile.lref
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\MainWindow.baml
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.g.resources
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.Properties.Resources.resources
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.csproj.GenerateResource.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.csproj.CoreCompileInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML EVENTS\S9_IntroPrgWpfGui\introPrgWpfGui\obj\Debug\introPrgWpfGui.pdb

@@ -14,14 +14,6 @@
 #     print("hello")
 #     i = i + 1
 
-# i = 0
-# while i < 5:
-#     print("hello")
-#     i = i + 1
-
-# for i in range(5):
-#     print("hello")
-#     i = i + 3
 
 # count_down_num = 5
 # while count_down_num > 0:
@@ -44,6 +36,10 @@
 #     print(line)
 # print("Done!")
 
-topic = "Today we learn about Loops"
-for x in range(3):
-    print(topic, x + 1)
+# topic = "Today we learn about Loops"
+# for x in range(3):
+#     print(topic, x + 1)
+
+for i in range(5):
+    # Code to be executed for each iteration
+    print(i)

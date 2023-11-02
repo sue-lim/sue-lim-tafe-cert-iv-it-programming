@@ -1,0 +1,14 @@
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\bin\Debug\net6.0\introPRGTestClasses.exe
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\bin\Debug\net6.0\introPRGTestClasses.deps.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\bin\Debug\net6.0\introPRGTestClasses.runtimeconfig.json
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\bin\Debug\net6.0\introPRGTestClasses.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\bin\Debug\net6.0\introPRGTestClasses.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\obj\Debug\net6.0\introPRGTestClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\obj\Debug\net6.0\introPRGTestClasses.AssemblyInfoInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\obj\Debug\net6.0\introPRGTestClasses.AssemblyInfo.cs
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\obj\Debug\net6.0\introPRGTestClasses.csproj.CoreCompileInputs.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\obj\Debug\net6.0\introPRGTestClasses.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\obj\Debug\net6.0\refint\introPRGTestClasses.dll
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\obj\Debug\net6.0\introPRGTestClasses.pdb
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\obj\Debug\net6.0\introPRGTestClasses.genruntimeconfig.cache
+C:\github\tafe-learning\cert-iv-it-programming\c#_exercises\S9-GUI WFP XAML\S9_Layouts_with_XML\introPRGTestClasses\obj\Debug\net6.0\ref\introPRGTestClasses.dll
