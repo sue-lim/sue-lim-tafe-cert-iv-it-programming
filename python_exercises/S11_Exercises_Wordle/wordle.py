@@ -51,8 +51,13 @@ def main():
     # PROCESS (MAIN LOOP)
     for guess_num in range(1, 7):
         guess = input(f"\nGuess {guess_num}: ").upper()
-
-        show_guess(guess, word)
+        # VALIDATE TO ONLY A-Z CHARS
+        if not (guess.isalpha() and len(guess) == 5):
+            print(
+                "Sorry! try again, you can only use a word with 5 characters only!  A-Z"
+            )
+        else:
+            show_guess(guess, word)
         if guess == word:
             print("You guess the word correctly!")
             break
