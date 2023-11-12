@@ -4,16 +4,10 @@ from smiley import Smiley
 
 class Sad(Smiley):
     """
-    Sad is a subclass of Smiley and of Blinkable.
-
-    Note that Blinkable is an interface (an abstract base
-    class that only contains an abstract method). By subclassing
-    Blinkable, this class promises to implement the abstract
-    method.See {meth:blink} below.
-    """
+    Sad is a subclass of Smiley"""
 
     def __init__(self):
-        super().__init__()
+        super().__init__(complexion=self.BLUE)
 
         self.draw_mouth()
         self.draw_eyes()
@@ -33,13 +27,11 @@ class Sad(Smiley):
         """
         eyes = [10, 13, 18, 21]
         for pixel in eyes:
-            self.pixels[pixel] = self.BLANK if wide_open else self.YELLOW
+            self.pixels[pixel] = self.BLANK if wide_open else self.complexion()
 
     def blink(self, delay=0.25):
         """
         Make the sad face blink once with a certain delay (in s).
-        This is the implementation of the abstract method from the
-        Blinkable abstract class.
 
         :param delay: Delay in seconds
         """

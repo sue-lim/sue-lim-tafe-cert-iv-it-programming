@@ -23,6 +23,7 @@ class Happy(Smiley, Blinkable):
         """
         Method that draws the mouth on the standard faceless smiley.
         """
+
         mouth = [41, 46, 50, 51, 52, 53]
         for pixel in mouth:
             self.pixels[pixel] = self.BLANK
@@ -32,9 +33,10 @@ class Happy(Smiley, Blinkable):
         Method that draws the eyes (open or closed) on the standard smiley.
         :param wide_open: True if eyes opened, False otherwise
         """
+
         eyes = [10, 13, 18, 21]
         for pixel in eyes:
-            self.pixels[pixel] = self.BLANK if wide_open else self.YELLOW
+            self.pixels[pixel] = self.BLANK if wide_open else self.complexion()
 
     def blink(self, delay=0.25):
         """
