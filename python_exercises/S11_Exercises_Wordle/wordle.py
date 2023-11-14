@@ -1,17 +1,9 @@
-"""NMTAFE ICTPRG302:
-Guess-My-Word Project Application"""
-# See the assignment worksheet and journal for further details.
-# Begin by completing the TODO items below in the order you specified in the journal
-
-""" Import Random Module for def target_word """
 import random
 from pathlib import Path
 import enum
 
 TARGET_WORDS = "./word-bank/target_words.txt"
 VALID_WORDS = "./word-bank/all_words.txt"
-
-MAX_TRIES = 6
 
 
 # USED FOR THE GUESS_SCORE FUNCTION
@@ -32,7 +24,6 @@ def game_introduction():
     print(f"Hey {user_name}... Nice to E-Meet you!\n\n{game_instructions_message}\n")
 
 
-# TODO: select target word at random from TARGET_WORDS
 # FUNCTION TO GENERATE A RANDOM WORD AS THE TARGET WORD FOR USER TO GUESS
 def get_target_word():
     target_words_file = open(
@@ -77,7 +68,6 @@ def guess_score(guess, target_word):
     return score
 
 
-# TODO: provide clues for each character in the guess using your scoring algorithm
 # FUNCTION TO RETURN THE BEST MATCHING HINT WORD BASED ON WHAT USER HAS ENTERED
 def find_matching_hint(guess_letters, file_path, target_word):
     best_match_hint = None
@@ -95,7 +85,7 @@ def find_matching_hint(guess_letters, file_path, target_word):
     return best_match_hint
 
 
-# FUNCTION FOR THE END OF THE GAME (END LOOP)
+# FUNCTION FOR THE END OF THE GAME
 def game_over(target_word):
     print(f"The word was {target_word}")
 
@@ -118,8 +108,6 @@ def main():
         guess = input(f"\nGuess {guess_num}: ").upper()
         best_match_hint = find_matching_hint(guess, file_path, target_word)
 
-        # TODO: repeat for MAX_TRIES valid attempts (start loop)
-        # TODO: ensure guess in VALID_WORDS
         # VALIDATE TO ONLY A-Z CHARS & GUESS LENGTH TO BE 5 TIMES ONLY
         if not (guess.isalpha() and len(guess) == 5):
             print(
@@ -146,8 +134,3 @@ if __name__ == "__main__":
     main()
 
 # TODO - PLAY AGAIN
-# NOTES:
-# ======
-# - Add your own flair to the project
-# - You will be required to add and refine features based on changing requirements
-# - Ensure your code passes any tests you have defined for it.
